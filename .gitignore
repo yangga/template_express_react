@@ -1,0 +1,10 @@
+node_modules
+build/
+.*.swp
+.env
+package-lock.json
+yarn-lock.json
+.cache
+.compiled
+dist
+.DS_Store
