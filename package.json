@@ -1,16 +1,16 @@
 {
-  "name": "parcel-react-ssr",
+  "name": "template_express_react",
   "version": "0.4.0",
-  "description": "Example of SSR with React and ParcelJS",
-  "main": "index.js",
+  "description": "Express+React+Parcel Template",
+  "main": "N/A",
   "keywords": [
     "parcel",
     "react",
     "ssr"
   ],
-  "author": "Benoit Tremblay <benoit@reactivestack.com>",
+  "author": "yangga <yangga0070@gmail.com>",
   "license": "MIT",
-  "repository": "reactivestack/parcel-react-ssr",
+  "repository": "yangga/template_express_react",
   "scripts": {
     "dev": "parcel src/app/index.html",
     "build": "rimraf dist && npm run build-client && npm run build-server",
