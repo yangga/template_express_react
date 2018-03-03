@@ -1,16 +1,16 @@
 {
-  "name": "template_express_react",
+  "name": "project-p-admin",
   "version": "0.4.0",
-  "description": "Express+React+Parcel Template",
-  "main": "N/A",
+  "description": "project-p-admin",
+  "main": "src/server/index.js",
   "keywords": [
     "parcel",
     "react",
     "ssr"
   ],
-  "author": "yangga <yangga0070@gmail.com>",
+  "author": "jake <jake@madtail.com>",
   "license": "MIT",
-  "repository": "yangga/template_express_react",
+  "repository": "yangga/project-p-admin",
   "scripts": {
     "dev": "parcel src/app/index.html",
     "build": "rimraf dist && npm run build-client && npm run build-server",
@@ -31,6 +31,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
     "node-sass": "^4.7.2",
+    "nodemon": "^1.17.1",
     "parcel-bundler": "^1.6.1",
     "rimraf": "^2.6.2"
   },
@@ -41,5 +42,9 @@
     ],
     "sourceMaps": true,
     "retainLines": true
+  },
+  "nodemonConfig": {
+    "ignore": ["test/*", "dist/*", ".cache/*", "src/app/*"],
+    "delay": "2500"
   }
 }
